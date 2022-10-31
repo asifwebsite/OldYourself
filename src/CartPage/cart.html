@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dit="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OldYourself</title>
+    <link rel="stylesheet" href=https://pro.fontawesome.com/releases/v5.10.0/css/all.css />
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <section id="header">
+        <div id="navLogo"></div>
+        <ul id="navbarCart"></ul>
+        <div id="mobilePage"></div>
+    </section>
+
+    <section class="MainPhotoPage" id="CartFirstSection">
+        <h2><span>Old</span> yourself with <span>new</span> products</h2>
+    </section>
+
+    <img src="../OldYourselfPictures/loader.gif" class="loader" alt="">
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                </tr>
+            </thead>
+            <tbody class="cart-Items">
+
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-sum" class="section-p1">
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td class="total-price">$0</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td class="total-price"><strong>$0</strong></td>
+                </tr>
+            </table>
+            <button class="normal" onclick="checkOut()">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer id="footerPage" class="section-p1"></footer>
+
+    <script src="../fram.js"></script>
+    <script>createNavLogoPage();</script>
+    <script>createNavMobilePage();</script>
+    <script>createNavCart();</script>
+    <script>navResponsive();</script>
+    <script>createFooterPages();</script>
+    <script src="../persist.js"></script>
+    <script src="../cart.js"></script>
+
+</body>
+
+</html>

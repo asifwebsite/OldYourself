@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <img src="OldYourselfPictures/loader.gif" class="loader" alt="" >
+
+    <div class="alert-box">
+        <img src="OldYourselfPictures/alert2.png" class="alert-img" alt="">
+        <p class="alert-msg">Error messege</p>
+    </div>
+
+    <div class="container">
+        <img src="OldYourselfPictures/logoBack.png" class="logo" alt="">
+    
+        <div>
+            <div class="inputForm">
+                <input type="text" autocomplete="off" id="usernameSignup" placeholder="username">
+                <input type="email" autocomplete="off" id="email" placeholder="email">
+                <input type="password" autocomplete="off" id="passwordSignup" placeholder="password">
+                <input type="text" autocomplete="off" id="number" placeholder="phone number">
+            </div>
+            <input type="checkbox" class="checkbox" id="terms-and-cond">
+            <label for="terms-and-cond">agree to our <a href="">terms and conditions</a></label>
+            <br>
+            <input type="checkbox" class="checkbox" id="notification">
+            <label for="notification">recieve upcoming offers and events mails</a></label>
+
+            <div class="inputForm">
+                <button class="submit-btn" id="signup-btn" onclick ="doSignup()">create account</button>
+                <p>Already have an account? <a href="/login.html" class="link">Log in here</a></p>
+            </div>
+    </div>
+       
+</div>  
+    
+
+
+    <script src="/persist.js"></script>
+</body>
+</html>
